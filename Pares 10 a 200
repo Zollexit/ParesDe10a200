@@ -1,0 +1,13 @@
+public class ParesDezADuzentos
+{
+    public static void main(String Args[])
+        {
+            int x=8,y=2,aux;
+            for(int c=0; c<96; c++)
+            {
+            aux=x+y;
+            x=aux;
+            System.out.println(aux);
+            } 
+        }
+}
